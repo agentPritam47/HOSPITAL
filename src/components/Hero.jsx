@@ -23,8 +23,8 @@ const Hero = () => {
                     <h1 className=' rounded-2xl text-white text-3xl lg:text-4xl font-bold'>A healthier you: Personal support for long-lasting change</h1>
                     <p className=' text-white mt-5'>Personal health coaching for people with chronic conditions via our easy-to-use app.</p>
                     <div className='flex flex-col lg:flex-row gap-5 pt-5'>
-                        <button className=' w-fit font-semibold px-7 lg:px-5 py-3 bg-white text-black rounded-full text-lg'>Start now <i className="ri-arrow-right-line"></i></button>
-                        <button className=' w-fit font-semibold px-4 py-2 border-[4px] border-white text-white rounded-full text-lg'>Find out more</button>
+                        <button className=' text-sm w-fit font-semibold px-7 lg:px-5 py-3 bg-white text-black rounded-full sm:text-lg'>Start now <i className="ri-arrow-right-line"></i></button>
+                        <button className=' text-sm w-fit font-semibold px-4 py-2 border-[4px] border-white text-white rounded-full sm:text-lg'>Find out more</button>
                     </div>
                 </div>
             </div>
