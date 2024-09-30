@@ -219,10 +219,10 @@ const Info = () => {
             <div className=" -translate-x-1/2 -translate-y-1/2 sm:h-[10vw] h-[10vh] w-[10vh] sm:w-[10vw] rounded-full bg-white absolute top-[58%] left-1/2"></div>
 
             <div ref={lb} className=" w-[15vh] sm:w-[10vw] top-[50%] absolute left-[110%] flex flex-col justify-center gap-5 -translate-x-1/2 h-full bottom-0">
-              <div ref={lb1} className="shadow-xl opacity-0  w-full h-[3vh] sm:h-[3vw] bg-white rounded-2xl"></div>
-              <div ref={lb2} className="shadow-xl opacity-0 w-full h-[3vh] sm:h-[3vw] bg-white rounded-2xl"></div>
-              <div ref={lb3} className="shadow-xl opacity-0  w-full h-[3vh] sm:h-[3vw] bg-white rounded-2xl"></div>
-              <div ref={lb4} className="shadow-xl opacity-0  w-full h-[3vh] sm:h-[3vw] bg-white rounded-2xl"></div>
+              <div ref={lb1} className="shadow-xl opacity-0  w-full h-[5vh] sm:h-[3vw] bg-white rounded-2xl"></div>
+              <div ref={lb2} className="shadow-xl opacity-0 w-full h-[5vh] sm:h-[3vw] bg-white rounded-2xl"></div>
+              <div ref={lb3} className="shadow-xl opacity-0  w-full h-[5vh] sm:h-[3vw] bg-white rounded-2xl"></div>
+              <div ref={lb4} className="shadow-xl opacity-0  w-full h-[5vh] sm:h-[3vw] bg-white rounded-2xl"></div>
             </div>
           </div>
 
