@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className=' h-screen w-full pt-7 px-[5vw] lg:px-[10vw] font-[bolld]'>
+    <div className=' h-fit pb-[25vh] sm:pb-5 w-full pt-7 px-[5vw] lg:px-[10vw] font-[bolld]'>
         <nav className=' w-full flex justify-between items-center'>
             <h1 className=' text-3xl'>OSKA</h1>
 
