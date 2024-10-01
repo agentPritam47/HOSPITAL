@@ -3,8 +3,8 @@ import React, { useState } from "react";
 const Hero = () => {
     const [open, setOpen] = useState(false)
   return (
-    <div className=" h-fit pb-[25vh] sm:pb-5 w-full pt-7 px-[5vw] lg:px-[10vw] font-[bolld]">
-      <nav className=" w-full flex justify-between items-center">
+    <div className=" overflow-x-hidden relative overflow-hidden h-fit pb-[25vh] sm:pb-5 w-full pt-7 px-[5vw] lg:px-[10vw] font-[bolld]">
+      <nav className="relative  w-full overflow-x-hidden flex justify-between items-center">
         <h1 className=" text-3xl">OSKA</h1>
 
         <div className=" lg:flex items-center gap-10 text-[1.05vw] font-bold lg:visible hidden">
