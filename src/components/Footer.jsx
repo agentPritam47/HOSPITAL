@@ -3,8 +3,8 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="  w-full sm:h-[fit] sm:pb-[10vw] bg-blue-800 sm:px-[10vw] py-[5vw] text-white">
-      <h1 className=" text-5xl text-white text-center sm:text-left ">OSKA</h1>
-      <div className=" flex sm:flex-row items-center flex-col mt-10 justify-between">
+      <h1 className=" text-5xl text-white text-center sm:text-left sm:pb-5 ">OSKA</h1>
+      <div className=" flex sm:flex-row items-start flex-col mt-10 justify-between">
         <div className=" sm:w-[40%] text-center sm:text-left w-full">
           <p className=" text-2xl opacity-80 text-white">
             info@oska-health.com
