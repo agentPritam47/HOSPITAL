@@ -32,7 +32,7 @@ const Services = () => {
       <div className=" flex sm:flex-row flex-col justify-center items-center gap-5 mt-10 sm:p-5">
         {service.map((item, index) => {
           return (
-            <div key={index} className=" sm:h-[18vw] h-[50vh] w-full sm:w-[15vw] p-7 rounded-2xl flex flex-col justify-center items-center gap-5 bg-blue-100 ">
+            <div key={index} className=" sm:h-[fit] h-[50vh] w-full sm:w-[fit] p-7 rounded-2xl flex flex-col justify-center items-center gap-5 bg-blue-100 ">
               <div className=" flex-shrink-0 sm:h-[8vw] h-[50%] w-full bg-blue-200"></div>
               <p className=" text-center text-xl font-[bolld] font-semibold">
                 {item.name}
