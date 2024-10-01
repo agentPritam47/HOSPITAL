@@ -37,7 +37,7 @@ const Services = () => {
               <p className=" text-center text-2xl font-[bolld] font-semibold">
                 {item.name}
               </p>
-              <button className=" px-4 py-3 bg-blue-900 rounded-full text-white text-xl ">
+              <button className=" px-4 py-3 bg-blue-900 rounded-full text-white text-lg sm:text-xl ">
                 Learn more <i className="ri-arrow-right-line"></i>
               </button>
             </div>
