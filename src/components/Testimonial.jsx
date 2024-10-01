@@ -15,7 +15,7 @@ const Testimonial = () => {
             Find out how Oska can support you in the treatment of multimorbid,
             chronically ill patients.
           </p>
-          <button className=" px-6 font-semibold py-3 bg-black rounded-full text-xl mt-6 w-fit text-white">
+          <button className=" px-6 font-semibold py-3 bg-black rounded-full text-md sm:text-xl mt-6 w-fit text-white">
             For Professionals{" "}
             <i className=" font-normal ri-arrow-right-line"></i>
           </button>
