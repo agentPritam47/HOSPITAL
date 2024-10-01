@@ -23,14 +23,14 @@ const Testimonial = () => {
         <div className=" sm:w-1/2 w-full h-[50vh] sm:h-[60vh] rounded-2xl overflow-hidden bg-red-200"></div>
       </div>
 
-      <div className=" p-10 w-full sm:w-[80%] h-[30vh] sm:h-[15vw] bg-zinc-100 mt-[5vw] relative mx-auto rounded-xl">
+      <div className=" p-10 w-full sm:w-[80%] h-fit sm:h-[15vw] bg-zinc-100 mt-[5vw] relative mx-auto rounded-xl">
         <h1 className=" sm:text-3xl text-2xl font-semibold font-[bolld] text-center">
           Professional and personal health advice.
         </h1>
         <h1 className=" sm:text-3xl text-2xl font-semibold font-[bolld] text-center mt-5">
           Just one click away
         </h1>
-        <button className=" relative left-1/2 -translate-x-1/2 mt-10 px-5 py-3 font-semibold bg-black rounded-full text-white text-xl ">
+        <button className=" relative left-1/2 -translate-x-1/2 mt-10 px-5 py-3 font-semibold bg-black rounded-full text-white text-md sm:text-xl ">
           Learn more <i className="ri-arrow-right-line"></i>
         </button>
       </div>
