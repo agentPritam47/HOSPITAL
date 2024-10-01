@@ -23,7 +23,7 @@ const Testimonial = () => {
         <div className=" sm:w-1/2 w-full h-[50vh] sm:h-[60vh] rounded-2xl overflow-hidden bg-red-200"></div>
       </div>
 
-      <div className=" px-10 py-10 w-full sm:w-[80%] h-fit sm:h-[20vw] bg-zinc-100 mt-[5vw] relative mx-auto rounded-xl">
+      <div className=" px-10 py-10 w-full sm:w-[80%] h-fit sm:h-[fit] bg-zinc-100 mt-[5vw] relative mx-auto rounded-xl">
         <h1 className=" sm:text-3xl text-2xl font-semibold font-[bolld] text-center">
           Professional and personal health advice.
         </h1>

@@ -33,11 +33,11 @@ const Services = () => {
         {service.map((item, index) => {
           return (
             <div key={index} className=" sm:h-[18vw] h-[50vh] w-full sm:w-[15vw] p-7 rounded-2xl flex flex-col justify-center items-center gap-5 bg-blue-100 ">
-              <div className=" sm:h-[8vw] h-[50%] w-full bg-blue-200"></div>
+              <div className=" flex-shrink-0 sm:h-[8vw] h-[50%] w-full bg-blue-200"></div>
               <p className=" text-center text-xl font-[bolld] font-semibold">
                 {item.name}
               </p>
-              <button className=" px-3 py-2 h-fit bg-blue-900 rounded-full text-white text-md sm:text-md ">
+              <button className=" flex-shrink-0 px-3 py-2 h-fit bg-blue-900 rounded-full text-white text-md sm:text-md ">
                 Learn more <i className="ri-arrow-right-line"></i>
               </button>
             </div>
