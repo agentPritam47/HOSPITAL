@@ -14,7 +14,6 @@ const Info = () => {
   const lb3 = useRef();
   const lb4 = useRef();
 
-
   const loaderPath = useRef(); // Ref for the path inside the SVG
 
   useGSAP(() => {
@@ -22,8 +21,7 @@ const Info = () => {
     const tl2 = gsap.timeline({ repeat: -1 });
     const tl3 = gsap.timeline({ repeat: -1 });
 
-
-    const btl = gsap.timeline({repeat: -1})
+    const btl = gsap.timeline({ repeat: -1 });
     const path = loaderPath.current;
     const pathLength = path.getTotalLength();
 
@@ -88,61 +86,97 @@ const Info = () => {
       ease: "Power2.easeInOut",
     });
 
-
-    tl3.to(lb.current,{
-      top: "30%",
-      duration: 1
-    },'anim')
-    tl3.to(lb1.current,{
-      opacity: 1,
-      duration: 1
-    },'anim')
-    tl3.to(lb.current,{
-      top: "20%",
-      duration: 1
-    },'anim1')
-    tl3.to(lb2.current,{
-      opacity: 1,
-      duration: 1
-    },'anim1')
-    tl3.to(lb.current,{
-      top: "10%",
-      duration: 1
-    },'anim2')
-    tl3.to(lb3.current,{
-      opacity: 1,
-      duration: 1
-    },'anim2')
-    tl3.to(lb.current,{
-      top: "0%",
-      duration: 1
-    },'anim3')
-    tl3.to(lb4.current,{
-      opacity: 1,
-      duration: 1
-    },'anim3')
-    tl3.to(lb.current,{
-      opacity: 0,
-      duration: .5,
-      delay: 2
-    },'b')
-
+    tl3.to(
+      lb.current,
+      {
+        top: "30%",
+        duration: 1,
+      },
+      "anim"
+    );
+    tl3.to(
+      lb1.current,
+      {
+        opacity: 1,
+        duration: 1,
+      },
+      "anim"
+    );
+    tl3.to(
+      lb.current,
+      {
+        top: "20%",
+        duration: 1,
+      },
+      "anim1"
+    );
+    tl3.to(
+      lb2.current,
+      {
+        opacity: 1,
+        duration: 1,
+      },
+      "anim1"
+    );
+    tl3.to(
+      lb.current,
+      {
+        top: "10%",
+        duration: 1,
+      },
+      "anim2"
+    );
+    tl3.to(
+      lb3.current,
+      {
+        opacity: 1,
+        duration: 1,
+      },
+      "anim2"
+    );
+    tl3.to(
+      lb.current,
+      {
+        top: "0%",
+        duration: 1,
+      },
+      "anim3"
+    );
+    tl3.to(
+      lb4.current,
+      {
+        opacity: 1,
+        duration: 1,
+      },
+      "anim3"
+    );
+    tl3.to(
+      lb.current,
+      {
+        opacity: 0,
+        duration: 0.5,
+        delay: 2,
+      },
+      "b"
+    );
 
     gsap.set(path, {
       strokeDasharray: pathLength,
       strokeDashoffset: 430,
     });
-    
+
     btl.to(path, {
       strokeDashoffset: 0,
       duration: 6,
     });
-    btl.to(path, {
-      opacity: 0
-    },'b');
+    btl.to(
+      path,
+      {
+        opacity: 0,
+      },
+      "b"
+    );
   });
-
-
 
   return (
     <div className=" w-full sm:py-10 font-[bolld] font-semibold px-5 pt-20">
@@ -150,7 +184,9 @@ const Info = () => {
         Whatever healthy means to you,
         <br /> Oska is there on your journey.
       </h1>
-      <h1 className=" pb-10 text-3xl text-black block sm:hidden text-center">Whatever healthy means to you, Oska is there on your journey.</h1>
+      <h1 className=" pb-10 text-3xl text-black block sm:hidden text-center">
+        Whatever healthy means to you, Oska is there on your journey.
+      </h1>
 
       <div className=" sm:px-[10vw] py-[5vw] ">
         <div className=" flex flex-col sm:flex-row justify-between items-start">
@@ -205,32 +241,54 @@ const Info = () => {
         </div>
 
         <div className=" flex flex-col sm:flex-row justify-between items-start pt-14">
-          <div className=" relative sm:h-[25vw] h-[30vh] w-[25vh] sm:w-[25vw] rounded-2xl flex justify-center items-center bg-green-100 ">
-            <svg height="100%" width="80%" viewBox="0 0 200 200">
-              <path
-                ref={loaderPath}
-                d="M 100,50 a 70,70 0 1,0 0,140 a 70,70 0 1,0 0,-140"
-                stroke="#75ae8f"
-                strokeWidth="10"
-                fill="none"
-                strokeLinecap="round"
-              />
-            </svg>
+          <div className=" sm:w-1/2">
+            <div className=" relative sm:h-[25vw] h-[30vh] w-[25vh] sm:w-[25vw] rounded-2xl flex justify-center items-center bg-green-100 ">
+              <svg height="100%" width="80%" viewBox="0 0 200 200">
+                <path
+                  ref={loaderPath}
+                  d="M 100,50 a 70,70 0 1,0 0,140 a 70,70 0 1,0 0,-140"
+                  stroke="#75ae8f"
+                  strokeWidth="10"
+                  fill="none"
+                  strokeLinecap="round"
+                />
+              </svg>
 
-            <div className=" -translate-x-1/2 -translate-y-1/2 sm:h-[10vw] h-[10vh] w-[10vh] sm:w-[10vw] rounded-full bg-white absolute top-[58%] left-1/2"></div>
+              <div className=" -translate-x-1/2 -translate-y-1/2 sm:h-[10vw] h-[10vh] w-[10vh] sm:w-[10vw] rounded-full bg-white absolute top-[58%] left-1/2"></div>
 
-            <div ref={lb} className=" w-[15vh] sm:w-[10vw] top-[50%] absolute left-[110%] flex flex-col justify-center gap-5 -translate-x-1/2 h-full bottom-0">
-              <div ref={lb1} className="shadow-xl opacity-0  w-full h-[5vh] sm:h-[3vw] bg-white rounded-2xl"></div>
-              <div ref={lb2} className="shadow-xl opacity-0 w-full h-[5vh] sm:h-[3vw] bg-white rounded-2xl"></div>
-              <div ref={lb3} className="shadow-xl opacity-0  w-full h-[5vh] sm:h-[3vw] bg-white rounded-2xl"></div>
-              <div ref={lb4} className="shadow-xl opacity-0  w-full h-[5vh] sm:h-[3vw] bg-white rounded-2xl"></div>
+              <div
+                ref={lb}
+                className=" w-[15vh] sm:w-[10vw] top-[50%] absolute left-[110%] flex flex-col justify-center gap-5 -translate-x-1/2 h-full bottom-0"
+              >
+                <div
+                  ref={lb1}
+                  className="shadow-xl opacity-0  w-full h-[5vh] sm:h-[3vw] bg-white rounded-2xl"
+                ></div>
+                <div
+                  ref={lb2}
+                  className="shadow-xl opacity-0 w-full h-[5vh] sm:h-[3vw] bg-white rounded-2xl"
+                ></div>
+                <div
+                  ref={lb3}
+                  className="shadow-xl opacity-0  w-full h-[5vh] sm:h-[3vw] bg-white rounded-2xl"
+                ></div>
+                <div
+                  ref={lb4}
+                  className="shadow-xl opacity-0  w-full h-[5vh] sm:h-[3vw] bg-white rounded-2xl"
+                ></div>
+              </div>
             </div>
           </div>
 
           <div>
             <h1 className=" text-3xl mt-10 sm:mt-0">A plan - just for you</h1>
-            <p className=" pt-5 font-[regular]">Our tailored plans match your needs to support you supporting your health.</p>
-            <button className=" bg-black text-white font-medium px-4 py-3 rounded-full mt-5">Find out more</button>
+            <p className=" pt-5 font-[regular]">
+              Our tailored plans match your needs to support you supporting your
+              health.
+            </p>
+            <button className=" bg-black text-white font-medium px-4 py-3 rounded-full mt-5">
+              Find out more
+            </button>
           </div>
         </div>
       </div>
