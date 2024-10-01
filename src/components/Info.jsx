@@ -91,39 +91,40 @@ const Info = () => {
 
     tl3.to(lb.current,{
       top: "30%",
-      duration: 1.5
+      duration: 1
     },'anim')
     tl3.to(lb1.current,{
       opacity: 1,
-      duration: 1.5
+      duration: 1
     },'anim')
     tl3.to(lb.current,{
       top: "20%",
-      duration: 1.5
+      duration: 1
     },'anim1')
     tl3.to(lb2.current,{
       opacity: 1,
-      duration: 1.5
+      duration: 1
     },'anim1')
     tl3.to(lb.current,{
       top: "10%",
-      duration: 1.5
+      duration: 1
     },'anim2')
     tl3.to(lb3.current,{
       opacity: 1,
-      duration: 1.5
+      duration: 1
     },'anim2')
     tl3.to(lb.current,{
       top: "0%",
-      duration: 1.5
+      duration: 1
     },'anim3')
     tl3.to(lb4.current,{
       opacity: 1,
-      duration: 1.5
+      duration: 1
     },'anim3')
     tl3.to(lb.current,{
       opacity: 0,
       duration: .5,
+      delay: 2
     },'b')
 
 
@@ -152,8 +153,8 @@ const Info = () => {
       <h1 className=" pb-10 text-3xl text-black block sm:hidden text-center">Whatever healthy means to you, Oska is there on your journey.</h1>
 
       <div className=" sm:px-[10vw] py-[5vw] ">
-        <div className=" flex flex-col sm:flex-row justify-between items-center">
-          <div className="  sm:h-[30vw] h-[30vh] w-[30vh] sm:w-[30vw] overflow-hidden  ml-10 sm:ml-0 flex items-end relative">
+        <div className=" flex flex-col sm:flex-row justify-between items-start">
+          <div className="  sm:h-[30vw] h-[30vh] w-[30vh] sm:w-[30vw] overflow-hidden  sm:ml-0 flex items-end relative">
             <div className=" sm:h-[15vw] h-[15vh] w-[25vh] sm:w-[20vw] rounded-2xl bg-red-100 relative flex justify-center">
               <div
                 ref={card1}
@@ -177,7 +178,7 @@ const Info = () => {
           </div>
         </div>
 
-        <div className=" flex flex-col-reverse sm:flex-row justify-between items-center pt-14">
+        <div className=" flex flex-col-reverse sm:flex-row justify-between items-start pt-14">
           <div className=" w-full sm:w-[40%] mt-10 sm:mt-0">
             <h1 className=" text-3xl">Easy tips for your everyday</h1>
             <p className=" mt-5 font-[regular]">
@@ -203,9 +204,9 @@ const Info = () => {
           </div>
         </div>
 
-        <div className=" flex flex-col sm:flex-row justify-between items-center pt-14">
-          <div className=" relative sm:h-[25vw] h-[30vh] w-[25vh] sm:w-[20vw] rounded-2xl flex justify-center items-center bg-green-100 ">
-            <svg height="100%" width="100%" viewBox="0 0 200 200">
+        <div className=" flex flex-col sm:flex-row justify-between items-start pt-14">
+          <div className=" relative sm:h-[25vw] h-[30vh] w-[25vh] sm:w-[25vw] rounded-2xl flex justify-center items-center bg-green-100 ">
+            <svg height="100%" width="80%" viewBox="0 0 200 200">
               <path
                 ref={loaderPath}
                 d="M 100,50 a 70,70 0 1,0 0,140 a 70,70 0 1,0 0,-140"
