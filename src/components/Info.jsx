@@ -145,13 +145,13 @@ const Info = () => {
 
   return (
     <div className=" w-full sm:py-10 font-[bolld] font-semibold px-5 pt-20">
-      <h1 className=" text-black text-xl sm:text-4xl text-center sm:block hidden">
+      <h1 className=" text-black text-xl sm:text-5xl text-center sm:block hidden">
         Whatever healthy means to you,
         <br /> Oska is there on your journey.
       </h1>
       <h1 className=" pb-10 text-3xl text-black block sm:hidden text-center">Whatever healthy means to you, Oska is there on your journey.</h1>
 
-      <div className=" px-[5vw] sm:px-[10vw] py-[5vw] ">
+      <div className=" sm:px-[10vw] py-[5vw] ">
         <div className=" flex flex-col sm:flex-row justify-between items-center">
           <div className="  sm:h-[30vw] h-[30vh] w-[30vh] sm:w-[30vw] overflow-hidden  ml-10 sm:ml-0 flex items-end relative">
             <div className=" sm:h-[15vw] h-[15vh] w-[25vh] sm:w-[20vw] rounded-2xl bg-red-100 relative flex justify-center">
