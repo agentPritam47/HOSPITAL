@@ -16,14 +16,14 @@ const Testimonial = () => {
             chronically ill patients.
           </p>
           <button className=" px-6 font-semibold py-3 bg-black rounded-full text-md sm:text-xl mt-6 w-fit text-white">
-            For Professionals{" "}
+            For Professionals
             <i className=" font-normal ri-arrow-right-line"></i>
           </button>
         </div>
         <div className=" sm:w-1/2 w-full h-[50vh] sm:h-[60vh] rounded-2xl overflow-hidden bg-red-200"></div>
       </div>
 
-      <div className=" p-10 w-full sm:w-[80%] h-fit sm:h-[15vw] bg-zinc-100 mt-[5vw] relative mx-auto rounded-xl">
+      <div className=" px-10 py-10 w-full sm:w-[80%] h-fit sm:h-[15vw] bg-zinc-100 mt-[5vw] relative mx-auto rounded-xl">
         <h1 className=" sm:text-3xl text-2xl font-semibold font-[bolld] text-center">
           Professional and personal health advice.
         </h1>
