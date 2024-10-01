@@ -19,9 +19,9 @@ const Footer = () => {
         <div className=" sm:w-[20%] w-full flex flex-col items-center mt-10 sm:mt-0">
           <p className=" text-2xl font-semibold">We are here for you</p>
           <p className=" text-2xl opacity-80 text-white mt-3">Patients</p>
-          <p className=" text-2xl opacity-80 text-white mt-3">
-            Healthcare professionals
-          </p>
+          <p className=" text-2xl opacity-80 text-white mt-3">Patients</p>
+          <p className=" text-2xl opacity-80 text-white mt-3">Patients</p>
+          
         </div>
         <div className=" sm:w-[20%] w-full flex flex-col items-center mt-10 sm:mt-0">
           <p className=" text-2xl font-semibold">About Oska</p>
