@@ -5,13 +5,13 @@ const Testimonial = () => {
     <div className=" w-full sm:px-[15vw] py-16 px-[5vw]">
       <div className="flex sm:flex-row flex-col justify-between items-center w-full">
         <div className=" sm:w-1/2 w-full px-5 pb-10 sm:pb-0">
-          <p className=" text-2xl font-semibold">
+          <p className=" text-lg sm:text-2xl font-semibold">
             For healthcare professionals
           </p>
           <h1 className=" text-4xl font-[bolld] font-semibold mt-4">
             Enabling better care
           </h1>
-          <p className=" text-2xl mt-4 ">
+          <p className=" text-lg sm:text-2xl mt-4 ">
             Find out how Oska can support you in the treatment of multimorbid,
             chronically ill patients.
           </p>
