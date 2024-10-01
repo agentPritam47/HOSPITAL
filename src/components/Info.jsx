@@ -145,7 +145,7 @@ const Info = () => {
 
   return (
     <div className=" w-full sm:py-10 font-[bolld] font-semibold px-5 pt-20">
-      <h1 className=" text-black text-xl sm:text-5xl text-center sm:block hidden">
+      <h1 className=" text-black text-xl sm:text-4xl text-center sm:block hidden">
         Whatever healthy means to you,
         <br /> Oska is there on your journey.
       </h1>
