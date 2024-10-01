@@ -17,7 +17,7 @@ const Doctors = () => {
   ];
   return (
     <div className=" px-[5vw] py-16">
-      <h1 className=" sm:text-5xl text-3xl font-[bolld] font-semibold text-center">
+      <h1 className=" sm:text-4xl text-3xl font-[bolld] font-semibold text-center">
         Oska was developed in collaboration <br className="sm:block hidden" /> with leading medical experts
       </h1>
 
