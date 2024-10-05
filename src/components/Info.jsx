@@ -218,7 +218,9 @@ const Info = () => {
           <div className=" w-full sm:w-[40%] mt-10 sm:mt-0">
             <h1 className=" text-3xl">Blends into your daily schedule</h1>
             <p className=" mt-5 font-[regular]">
-            From better blood pressure & diabetes control, to improved medication intake,  nutrition and much more. We help you reverse your condition without cutting out your favourite food
+              From better blood pressure & diabetes control, to improved
+              medication intake, nutrition and much more. We help you reverse
+              your condition without cutting out your favourite food
             </p>
           </div>
 
@@ -279,10 +281,9 @@ const Info = () => {
           </div>
 
           <div>
-            <h1 className=" text-3xl mt-10 sm:mt-0">A plan - just for you</h1>
+            <h1 className=" text-3xl mt-10 sm:mt-0">Results you hold on to</h1>
             <p className=" pt-5 font-[regular]">
-              Our tailored plans match your needs to support you supporting your
-              health.
+              Experience how even small changes make a difference.
             </p>
             <button className=" bg-black text-white font-medium px-4 py-3 rounded-full mt-5">
               Find out more
