@@ -182,7 +182,8 @@ const Info = () => {
     <div className=" w-full sm:py-10 font-[bolld] font-semibold px-5 pt-20">
       <h1 className=" text-black text-xl sm:text-4xl text-center sm:block hidden">
         Cuore adapts to your life - You
-        <br />decide when and how you use it.
+        <br />
+        decide when and how you use it.
       </h1>
       <h1 className=" pb-10 text-3xl text-black block sm:hidden text-center">
         Cuore adapts to your life - You decide when and how you use it.
@@ -205,22 +206,19 @@ const Info = () => {
           </div>
 
           <div className=" w-full sm:w-[40%] mt-10 sm:mt-0">
-            <h1 className=" text-3xl">Personal health coaching</h1>
+            <h1 className=" text-3xl">Comprehensive health plan</h1>
             <p className=" font-[regular] mt-5">
-              Our healthcare team provides you with tailored care. Experienced
-              medical care professionals and nutritionists, always available for
-              you via chat and regular video call
+              Cuore identifies your health risks, and provides you with a
+              comprehensive, personalized guidance, to reverse those risks.
             </p>
           </div>
         </div>
 
         <div className=" flex flex-col-reverse sm:flex-row justify-between items-start pt-14">
           <div className=" w-full sm:w-[40%] mt-10 sm:mt-0">
-            <h1 className=" text-3xl">Easy tips for your everyday</h1>
+            <h1 className=" text-3xl">Blends into your daily schedule</h1>
             <p className=" mt-5 font-[regular]">
-              From better blood pressure control, to guidance around medication
-              intake, nutrition tips and much more. We help you improve without
-              cutting out your favourite foods
+            From better blood pressure & diabetes control, to improved medication intake,  nutrition and much more. We help you reverse your condition without cutting out your favourite food
             </p>
           </div>
 
