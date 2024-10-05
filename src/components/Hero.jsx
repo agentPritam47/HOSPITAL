@@ -36,8 +36,8 @@ const Hero = () => {
               A healthier you: Personal support for long-lasting change
             </h1>
             <p className=" text-white mt-5">
-              Personal health coaching for people with chronic conditions via
-              our easy-to-use app.
+              Sustainable health plans for the prevention & reversal of
+              cardiometabolic diseases.
             </p>
             <div className="flex flex-col lg:flex-row gap-5 pt-5">
               <button className=" text-sm w-fit font-semibold px-7 lg:px-5 py-3 bg-white text-black rounded-full sm:text-lg">
