@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className=" overflow-x-hidden relative overflow-hidden h-fit pb-[25vh] sm:pb-5 w-full pt-7 px-[5vw] lg:px-[10vw] font-[bolld]">
       <nav className="relative h-fit  w-full flex justify-between items-center">
-        <h1 className=" text-3xl">OSKA</h1>
+        <h1 className="relative z-[999] text-3xl">OSKA</h1>
 
         <div className=" lg:flex items-center gap-10 text-[1.05vw] font-bold lg:visible hidden">
           <p>Individuals</p>
@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
       </nav>
 
-      <div className={`h-fit rounded-2xl w-full absolute top-0 right-0 bg-zinc-100 shadow-2xl z-[999] flex flex-col gap-10 sm:hidden items-start px-5 py-10 text-xl transform ${open ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-500`}>
+      <div className={`h-fit rounded-2xl w-full absolute top-0 right-0 bg-zinc-100 shadow-2xl z-[899] flex flex-col gap-10 sm:hidden items-start px-5 py-10 text-xl transform ${open ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-500`}>
         <div className=" w-full flex justify-end text-xl"><i onClick={()=>setOpen(false)} className="ri-close-line"></i></div>
         <p>Individuals</p>
         <p>Medical professionals</p>
