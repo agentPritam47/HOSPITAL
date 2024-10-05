@@ -15,7 +15,7 @@ const Services = () => {
       name: "Obesity",
     },
     {
-      img: "/hyper-tension.png",
+      img: "/heart.svg",
       name: "Cardiovascular disease",
     },
   ];
