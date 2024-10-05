@@ -12,7 +12,7 @@ const Services = () => {
     },
     {
       img: "",
-      name: "Kidney disease",
+      name: "Obesity",
     },
     {
       img: "",
