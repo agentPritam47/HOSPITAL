@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
       </nav>
 
-      <div className={`h-fit rounded-2xl w-1/2 absolute top-0 right-0 bg-zinc-100 shadow-2xl z-[999] flex flex-col gap-10 sm:hidden items-start px-5 py-10 text-xl transform ${open ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-500`}>
+      <div className={`h-fit rounded-2xl w-full absolute top-0 right-0 bg-zinc-100 shadow-2xl z-[999] flex flex-col gap-10 sm:hidden items-start px-5 py-10 text-xl transform ${open ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-500`}>
         <div className=" w-full flex justify-end text-xl"><i onClick={()=>setOpen(false)} className="ri-close-line"></i></div>
         <p>Individuals</p>
         <p>Medical professionals</p>
