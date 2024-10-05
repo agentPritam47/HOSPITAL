@@ -52,7 +52,7 @@ const Hero = () => {
         <div className=" lg:h-full h-[50vh] lg:w-[45%] w-[70vw] lg:rounded-none rounded-2xl lg:overflow-visible bg-green-300 lg:relative absolute lg:top-0 top-[60vh] right-0">
           <img
             className="sm:rounded-none rounded-2xl h-full w-full object-cover"
-            src="https://www.oska-health.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252F23300f312f264ce6a97ab86ef3552a46%252Ff78356c464fe44f48a74e83993bceb2b&w=640&q=75"
+            src="/hero.png"
             alt=""
           />
 
