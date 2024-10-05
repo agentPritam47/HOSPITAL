@@ -181,11 +181,11 @@ const Info = () => {
   return (
     <div className=" w-full sm:py-10 font-[bolld] font-semibold px-5 pt-20">
       <h1 className=" text-black text-xl sm:text-4xl text-center sm:block hidden">
-        Whatever healthy means to you,
-        <br /> Oska is there on your journey.
+        Cuore adapts to your life - You
+        <br />decide when and how you use it.
       </h1>
       <h1 className=" pb-10 text-3xl text-black block sm:hidden text-center">
-        Whatever healthy means to you, Oska is there on your journey.
+        Cuore adapts to your life - You decide when and how you use it.
       </h1>
 
       <div className=" sm:px-[10vw] py-[5vw] ">
