@@ -25,7 +25,7 @@ const Testimonial = () => {
 
       <div className=" px-10 py-10 w-full sm:w-[80%] h-fit sm:h-[fit] bg-zinc-100 mt-[5vw] relative mx-auto rounded-xl">
         <h1 className=" sm:text-3xl text-2xl font-semibold font-[bolld] text-center">
-          Professional and personal health advice.
+          Your everyday health companion.
         </h1>
         <h1 className=" sm:text-3xl text-2xl font-semibold font-[bolld] text-center mt-5">
           Just one click away
