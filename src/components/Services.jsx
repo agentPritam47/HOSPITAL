@@ -3,19 +3,19 @@ import React from "react";
 const Services = () => {
   const service = [
     {
-      img: "",
+      img: "/glucose.svg",
       name: "Diabetes",
     },
     {
-      img: "",
+      img: "/hyper-tension.png",
       name: "Hypertension",
     },
     {
-      img: "",
+      img: "/svgviewer-png-output (1).png",
       name: "Obesity",
     },
     {
-      img: "",
+      img: "heart-beat.svg",
       name: "Cardiovascular disease",
     },
   ];
@@ -36,7 +36,9 @@ const Services = () => {
               key={index}
               className=" sm:h-[fit] h-[50vh] w-full sm:w-[fit] p-7 rounded-2xl flex flex-col justify-center items-center gap-5 bg-blue-100 "
             >
-              <div className=" flex-shrink-0 sm:h-[8vw] h-[50%] w-full bg-blue-200"></div>
+              <div className=" flex-shrink-0 sm:h-[8vw] h-[50%] w-[50%] ">
+                <img className=" h-full w-full object-cover" src={item.img} alt="" />
+              </div>
               <p className=" text-center text-xl font-[bolld] font-semibold">
                 {item.name}
               </p>
