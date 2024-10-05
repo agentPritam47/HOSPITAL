@@ -9,11 +9,11 @@ const Testimonial = () => {
             For healthcare professionals
           </p>
           <h1 className=" text-4xl font-[bolld] font-semibold mt-4">
-            Enabling better care
+            Cuore acts as an extension of your practice
           </h1>
           <p className=" text-lg sm:text-2xl mt-4 ">
-            Find out how Oska can support you in the treatment of multimorbid,
-            chronically ill patients.
+            Providing patients with daily lifestyle modification plans, progress
+            monitoring, and alerting you to any risk change.
           </p>
           <button className=" px-6 font-semibold py-3 bg-black rounded-full text-md sm:text-lg mt-6 w-fit text-white">
             For Professionals
