@@ -3,15 +3,15 @@ import React from "react";
 const Doctors = () => {
   const doctor = [
     {
-      name: "Prof. Dr. med. Klemens Budde",
+      name: "Prof. Dr. med. Klemens ",
       domain: "Nephrologist",
     },
     {
-      name: "Prof. Dr. med. Jürgen Wagner",
+      name: "Prof. Dr. med. Jürgen ",
       domain: "Nephrologist",
     },
     {
-      name: "Prof. Dr. med. Christoph Wanner",
+      name: "Prof. Dr. med. Christoph ",
       domain: "Nephrologist",
     },
   ];
