@@ -11,7 +11,7 @@ const Services = () => {
       name: "Hypertension",
     },
     {
-      img: "/svgviewer-png-output (1).png",
+      img: "/weight-scale.svg",
       name: "Obesity",
     },
     {
