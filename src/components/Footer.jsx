@@ -3,11 +3,11 @@ import React from "react";
 const Footer = () => {
   return (
     <div className=" pt-10 font-[bolld]">
-      <div className="  w-full sm:h-[fit] sm:pb-[10vw] bg-blue-400 sm:px-[10vw] py-[5vw] text-white">
+      <div className="  w-full sm:h-[fit] sm:pb-[10vw] bg-violet-700 sm:px-[10vw] py-[5vw] text-white">
         {/* <h1 className=" text-5xl text-white text-center sm:text-left sm:pb-5 ">
           OSKA
         </h1> */}
-        <div className=" w-full h-fit sm:pb-5 flex items-center justify-center sm:justify-start">
+        <div className=" mix w-full h-fit sm:pb-5 flex items-center justify-center sm:justify-start">
           <div className=" sm:w-[14vw] sm:h-[5vw] w-[14vh] h-[5vh] flex items-center justify-center sm:ml-[-2vw]">
             <img src="Logoo-removebg-preview.png" alt="" />
           </div>
