@@ -227,16 +227,20 @@ const Info = () => {
           <div className=" flex-shrink-0 sm:h-[25vw] h-[30vh] w-[25vh] rounded-2xl sm:w-[20vw] bg-red-100 relative">
             <div
               ref={fe1}
-              className=" opacity-0 sm:h-[6vw] h-[6vh] w-[90%] rounded-2xl bg-zinc-50 shadow-xl absolute top-[10%] left-[40%] -translate-x-1/2"
-            ></div>
+              className=" flex p-5 items-center justify-center opacity-0 sm:h-[6vw] h-[6vh] w-[90%] rounded-2xl bg-zinc-50 shadow-xl absolute top-[10%] left-[40%] -translate-x-1/2"
+            ><h1 className=" text-sm sm:text-xl">Reduce Blood Pressure by ~14 mmHG1</h1></div>
             <div
               ref={fe2}
-              className=" opacity-0 sm:h-[6vw] h-[6vh] w-[90%] rounded-2xl bg-zinc-50 shadow-xl absolute top-[40%] left-[40%] -translate-x-1/2"
-            ></div>
+              className="flex p-5 items-center justify-center opacity-0 sm:h-[6vw] h-[6vh] w-[90%] rounded-2xl bg-zinc-50 shadow-xl absolute top-[40%] left-[40%] -translate-x-1/2"
+            >
+              <h1 className=" text-sm sm:text-xl">Reduce Blood Sugar by ~30 mg/dl2</h1>
+            </div>
             <div
               ref={fe3}
-              className=" opacity-0 sm:h-[6vw] h-[6vh] w-[90%] rounded-2xl bg-zinc-50 shadow-xl absolute top-[70%] left-[40%] -translate-x-1/2"
-            ></div>
+              className="flex p-5 items-center justify-center opacity-0 sm:h-[6vw] h-[6vh] w-[90%] rounded-2xl bg-zinc-50 shadow-xl absolute top-[70%] left-[40%] -translate-x-1/2"
+            >
+              <h1 className=" text-sm sm:text-xl">Reduce cardiac risk by ~50%3</h1>
+            </div>
           </div>
         </div>
 
