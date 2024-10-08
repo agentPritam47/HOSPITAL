@@ -225,22 +225,37 @@ const Info = () => {
           </div>
 
           <div className=" flex-shrink-0 sm:h-[25vw] h-[30vh] w-[25vh] rounded-2xl sm:w-[20vw] bg-red-100 relative">
-            <div
-              ref={fe1}
-              className=" flex px-3 items-center justify-center opacity-0 sm:h-[6vw] h-[6vh] w-[90%] rounded-2xl bg-zinc-50 shadow-xl absolute top-[10%] left-[40%] -translate-x-1/2"
-            ><h1 className=" text-xs sm:whitespace-nowrap ">Reduce Blood Pressure by ~14 mmHG <sup>1</sup></h1></div>
-            <div
-              ref={fe2}
-              className="flex px-3 items-center justify-center opacity-0 sm:h-[6vw] h-[6vh] w-[90%] rounded-2xl bg-zinc-50 shadow-xl absolute top-[40%] left-[40%] -translate-x-1/2"
-            >
-              <h1 className=" text-xs sm:whitespace-nowrap ">Reduce Blood Sugar by ~30 mg/dl <sup>2</sup></h1>
-            </div>
-            <div
-              ref={fe3}
-              className="flex px-3 items-center justify-center opacity-0 sm:h-[6vw] h-[6vh] w-[90%] rounded-2xl bg-zinc-50 shadow-xl absolute top-[70%] left-[40%] -translate-x-1/2"
-            >
-              <h1 className=" text-xs sm:whitespace-nowrap">Reduce cardiac risk by ~50% <sup>3</sup></h1>
-            </div>
+            <a className=" inline-block" href="http://www.ncbi.nlm.nih.gov">
+              <div
+                ref={fe1}
+                className=" flex px-3 items-center justify-center opacity-0 sm:h-[6vw] h-[6vh] w-[90%] rounded-2xl bg-zinc-50 shadow-xl absolute top-[10%] left-[40%] -translate-x-1/2"
+              >
+                <h1 className=" text-xs sm:whitespace-nowrap ">
+                  Reduce Blood Pressure by ~14 mmHG <sup>1</sup>
+                </h1>
+              </div>
+            </a>
+            <a className=" inline-block" href="http://www.ncbi.nlm.nih.gov">
+              <div
+                ref={fe2}
+                className="flex px-3 items-center justify-center opacity-0 sm:h-[6vw] h-[6vh] w-[90%] rounded-2xl bg-zinc-50 shadow-xl absolute top-[40%] left-[40%] -translate-x-1/2"
+              >
+                <h1 className=" text-xs sm:whitespace-nowrap ">
+                  Reduce Blood Sugar by ~30 mg/dl <sup>2</sup>
+                </h1>
+              </div>
+            </a>
+
+            <a className=" inline-block" href="http://heart.arizona.edu">
+              <div
+                ref={fe3}
+                className="flex px-3 items-center justify-center opacity-0 sm:h-[6vw] h-[6vh] w-[90%] rounded-2xl bg-zinc-50 shadow-xl absolute top-[70%] left-[40%] -translate-x-1/2"
+              >
+                <h1 className=" text-xs sm:whitespace-nowrap">
+                  Reduce cardiac risk by ~50% <sup>3</sup>
+                </h1>
+              </div>
+            </a>
           </div>
         </div>
 
@@ -267,19 +282,27 @@ const Info = () => {
                 <div
                   ref={lb1}
                   className="shadow-xl flex justify-start items-center px-3 opacity-0  w-full h-[5vh] sm:h-[3.5vw] bg-white rounded-2xl"
-                ><p className=" text-xs " >Nutrition</p></div>
+                >
+                  <p className=" text-xs ">Nutrition</p>
+                </div>
                 <div
                   ref={lb2}
                   className="shadow-xl flex justify-start items-center px-3 opacity-0 w-full h-[5vh] sm:h-[3.5vw] bg-white rounded-2xl"
-                ><p className=" text-xs ">Fitness</p></div>
+                >
+                  <p className=" text-xs ">Fitness</p>
+                </div>
                 <div
                   ref={lb3}
                   className="shadow-xl flex justify-start items-center px-3 opacity-0  w-full h-[5vh] sm:h-[3.5vw] bg-white rounded-2xl"
-                ><p className=" text-xs ">Stress Reduction</p></div>
+                >
+                  <p className=" text-xs ">Stress Reduction</p>
+                </div>
                 <div
                   ref={lb4}
                   className="shadow-xl flex justify-start items-center px-3 opacity-0  w-full h-[5vh] sm:h-[3.5vw] bg-white rounded-2xl"
-                ><p className=" text-xs ">Sleep</p></div>
+                >
+                  <p className=" text-xs ">Sleep</p>
+                </div>
               </div>
             </div>
           </div>
