@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className=" pt-10">
+    <div className=" pt-10 font-[bolld]">
       <div className="  w-full sm:h-[fit] sm:pb-[10vw] bg-blue-800 sm:px-[10vw] py-[5vw] text-white">
         <h1 className=" text-5xl text-white text-center sm:text-left sm:pb-5 ">
           OSKA
