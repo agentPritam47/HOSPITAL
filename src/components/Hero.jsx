@@ -59,13 +59,13 @@ const Hero = () => {
             alt=""
           />
 
-          <div className=" rounded-xl absolute top-1/2 left-[0%] lg:h-[21vw] h-[36vh] w-[17vh] lg:w-[10vw] -translate-x-1/2 -translate-y-1/2 ">
+          {/* <div className=" rounded-xl absolute top-1/2 left-[0%] lg:h-[21vw] h-[36vh] w-[17vh] lg:w-[10vw] -translate-x-1/2 -translate-y-1/2 ">
             <img
               className=" h-full w-full object-cover"
               src="https://www.oska-health.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Ffile%2Fassets%252F23300f312f264ce6a97ab86ef3552a46%252F9735e32cbe794a148c26d0c59c57769c&w=1920&q=75"
               alt=""
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
