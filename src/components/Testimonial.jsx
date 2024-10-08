@@ -6,7 +6,7 @@ const Testimonial = () => {
       <div className="flex sm:flex-row flex-col justify-between items-center w-full">
         <div className=" sm:w-1/2 w-full px-5 pb-10 sm:pb-0">
           <p className=" text-lg sm:text-2xl font-semibold">
-            For healthcare professionals
+             healthcare 
           </p>
           <h1 className=" text-4xl font-[bolld] font-semibold mt-4">
             Cuore acts as an extension of your practice
