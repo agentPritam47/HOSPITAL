@@ -55,7 +55,7 @@ const Hero = () => {
         <div className=" lg:h-full h-[50vh] lg:w-[45%] w-[70vw] lg:rounded-none rounded-2xl lg:overflow-visible bg-green-300 lg:relative absolute lg:top-0 top-[60vh] right-0">
           <img
             className="sm:rounded-none rounded-2xl h-full w-full object-cover"
-            src="/hero.png"
+            src="https://images.unsplash.com/photo-1712232413828-10deb8eddf7f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           />
 
