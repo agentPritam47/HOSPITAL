@@ -8,7 +8,7 @@ const Footer = () => {
           OSKA
         </h1> */}
         <div className=" w-full h-fit sm:pb-5 flex items-center justify-center sm:justify-start">
-          <div className=" sm:w-[14vw] sm:h-[5vw] w-[14vh] h-[5vh] flex items-center justify-center">
+          <div className=" sm:w-[14vw] sm:h-[5vw] w-[14vh] h-[5vh] flex items-center justify-center sm:ml-[-2vw]">
             <img src="Logoo-removebg-preview.png" alt="" />
           </div>
         </div>
