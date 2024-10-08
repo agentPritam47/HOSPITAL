@@ -225,37 +225,37 @@ const Info = () => {
           </div>
 
           <div className=" flex-shrink-0 sm:h-[25vw] h-[30vh] w-[25vh] rounded-2xl sm:w-[20vw] bg-red-100 relative">
-            <a className=" inline-block" href="http://www.ncbi.nlm.nih.gov">
+            {/* <a className=" inline-block" href="http://www.ncbi.nlm.nih.gov"> */}
               <div
                 ref={fe1}
                 className=" flex px-3 items-center justify-center opacity-0 sm:h-[6vw] h-[6vh] w-[95%] rounded-2xl bg-zinc-50 shadow-xl absolute top-[10%] left-[40%] -translate-x-1/2"
               >
                 <h1 className=" text-xs sm:whitespace-nowrap ">
-                  Reduce Blood Pressure by ~14 mmHG <sup>1</sup>
+                  Reduce Blood Pressure by ~14 mmHG 
                 </h1>
               </div>
-            </a>
-            <a className=" inline-block" href="http://www.ncbi.nlm.nih.gov">
+            {/* </a> */}
+            {/* <a className=" inline-block" href="http://www.ncbi.nlm.nih.gov"> */}
               <div
                 ref={fe2}
                 className="flex px-3 items-center justify-center opacity-0 sm:h-[6vw] h-[6vh] w-[95%] rounded-2xl bg-zinc-50 shadow-xl absolute top-[40%] left-[40%] -translate-x-1/2"
               >
                 <h1 className=" text-xs sm:whitespace-nowrap ">
-                  Reduce Blood Sugar by ~30 mg/dl <sup>2</sup>
+                  Reduce Blood Sugar by ~30 mg/dl 
                 </h1>
               </div>
-            </a>
+            {/* </a> */}
 
-            <a className=" inline-block" href="http://heart.arizona.edu">
+            {/* <a className=" inline-block" href="http://heart.arizona.edu"> */}
               <div
                 ref={fe3}
                 className="flex px-3 items-center justify-center opacity-0 sm:h-[6vw] h-[6vh] w-[95%] rounded-2xl bg-zinc-50 shadow-xl absolute top-[70%] left-[40%] -translate-x-1/2"
               >
                 <h1 className=" text-xs sm:whitespace-nowrap">
-                  Reduce cardiac risk by ~50% <sup>3</sup>
+                  Reduce cardiac risk by ~50% 
                 </h1>
               </div>
-            </a>
+            {/* </a> */}
           </div>
         </div>
 
