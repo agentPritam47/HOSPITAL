@@ -6,7 +6,7 @@ const Hero = () => {
     <div className=" overflow-x-hidden relative overflow-hidden h-fit pb-[25vh] sm:pb-5 w-full pt-7 px-[5vw] lg:px-[10vw] font-[bolld]">
       <nav className="relative h-fit  w-full flex justify-between items-center">
         {/* <h1 className="relative z-[999] text-3xl">OSKA</h1> */}
-        <div className=" sm:h-[8vw] sm:w-[10vw] h-[8vh] w-[12vh] flex items-center justify-center ">
+        <div className=" sm:h-[4vw] sm:w-[10vw] h-[8vh] w-[12vh] flex items-center justify-center ">
           <img className=" h-full w-full object-contain scale-125" src="/Logoo-removebg-preview.png" alt="" />
         </div>
 
