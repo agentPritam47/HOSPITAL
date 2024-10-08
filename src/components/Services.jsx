@@ -15,7 +15,7 @@ const Services = () => {
       name: "Obesity",
     },
     {
-      img: "/heart.svg",
+      img: "/cardio.svg",
       name: "Cardiovascular disease",
     },
   ];
@@ -42,9 +42,9 @@ const Services = () => {
               <p className=" text-center text-xl font-[bolld] font-semibold">
                 {item.name}
               </p>
-              <button className=" flex-shrink-0 px-3 py-2 h-fit bg-blue-900 rounded-full text-white text-md sm:text-md ">
+              {/* <button className=" flex-shrink-0 px-3 py-2 h-fit bg-blue-900 rounded-full text-white text-md sm:text-md ">
                 Learn more <i className="ri-arrow-right-line"></i>
-              </button>
+              </button> */}
             </div>
           );
         })}
