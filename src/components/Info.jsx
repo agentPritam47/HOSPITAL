@@ -262,24 +262,24 @@ const Info = () => {
 
               <div
                 ref={lb}
-                className=" w-[15vh] sm:w-[10vw] top-[50%] absolute left-[110%] flex flex-col justify-center gap-5 -translate-x-1/2 h-full bottom-0"
+                className=" w-[15vh] sm:w-[12vw] top-[50%] absolute left-[110%] flex flex-col justify-center gap-5 -translate-x-1/2 h-full bottom-0"
               >
                 <div
                   ref={lb1}
-                  className="shadow-xl flex justify-start items-center px-3 opacity-0  w-full h-[5vh] sm:h-[3vw] bg-white rounded-2xl"
-                ><p className=" text-xs sm:text-base" >Nutrition</p></div>
+                  className="shadow-xl flex justify-start items-center px-3 opacity-0  w-full h-[5vh] sm:h-[3.5vw] bg-white rounded-2xl"
+                ><p className=" text-xs " >Nutrition</p></div>
                 <div
                   ref={lb2}
-                  className="shadow-xl flex justify-start items-center px-3 opacity-0 w-full h-[5vh] sm:h-[3vw] bg-white rounded-2xl"
-                ><p className=" text-xs sm:text-base">Fitness</p></div>
+                  className="shadow-xl flex justify-start items-center px-3 opacity-0 w-full h-[5vh] sm:h-[3.5vw] bg-white rounded-2xl"
+                ><p className=" text-xs ">Fitness</p></div>
                 <div
                   ref={lb3}
-                  className="shadow-xl flex justify-start items-center px-3 opacity-0  w-full h-[5vh] sm:h-[3vw] bg-white rounded-2xl"
-                ><p className=" text-xs sm:text-base">Stress Reduction</p></div>
+                  className="shadow-xl flex justify-start items-center px-3 opacity-0  w-full h-[5vh] sm:h-[3.5vw] bg-white rounded-2xl"
+                ><p className=" text-xs ">Stress Reduction</p></div>
                 <div
                   ref={lb4}
-                  className="shadow-xl flex justify-start items-center px-3 opacity-0  w-full h-[5vh] sm:h-[3vw] bg-white rounded-2xl"
-                ><p className=" text-xs sm:text-base">Sleep</p></div>
+                  className="shadow-xl flex justify-start items-center px-3 opacity-0  w-full h-[5vh] sm:h-[3.5vw] bg-white rounded-2xl"
+                ><p className=" text-xs ">Sleep</p></div>
               </div>
             </div>
           </div>
