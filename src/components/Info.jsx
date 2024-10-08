@@ -228,18 +228,18 @@ const Info = () => {
             <div
               ref={fe1}
               className=" flex px-3 items-center justify-center opacity-0 sm:h-[6vw] h-[6vh] w-[90%] rounded-2xl bg-zinc-50 shadow-xl absolute top-[10%] left-[40%] -translate-x-1/2"
-            ><h1 className=" text-xs ">Reduce Blood Pressure by ~14 mmHG <sup>1</sup></h1></div>
+            ><h1 className=" text-xs sm:whitespace-nowrap ">Reduce Blood Pressure by ~14 mmHG <sup>1</sup></h1></div>
             <div
               ref={fe2}
               className="flex px-3 items-center justify-center opacity-0 sm:h-[6vw] h-[6vh] w-[90%] rounded-2xl bg-zinc-50 shadow-xl absolute top-[40%] left-[40%] -translate-x-1/2"
             >
-              <h1 className=" text-xs">Reduce Blood Sugar by ~30 mg/dl <sup>2</sup></h1>
+              <h1 className=" text-xs sm:whitespace-nowrap ">Reduce Blood Sugar by ~30 mg/dl <sup>2</sup></h1>
             </div>
             <div
               ref={fe3}
               className="flex px-3 items-center justify-center opacity-0 sm:h-[6vw] h-[6vh] w-[90%] rounded-2xl bg-zinc-50 shadow-xl absolute top-[70%] left-[40%] -translate-x-1/2"
             >
-              <h1 className=" text-xs">Reduce cardiac risk by ~50% <sup>3</sup></h1>
+              <h1 className=" text-xs sm:whitespace-nowrap">Reduce cardiac risk by ~50% <sup>3</sup></h1>
             </div>
           </div>
         </div>
