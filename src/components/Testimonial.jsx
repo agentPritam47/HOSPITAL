@@ -6,7 +6,7 @@ const Testimonial = () => {
       <div className="flex sm:flex-row flex-col justify-between items-center w-full">
         <div className=" sm:w-1/2 w-full px-5 pb-10 sm:pb-0">
           <p className=" text-lg sm:text-2xl font-semibold">
-             healthcare 
+             healthcare professionals
           </p>
           <h1 className=" text-4xl font-[bolld] font-semibold mt-4">
             Cuore acts as an extension of your practice
@@ -15,10 +15,10 @@ const Testimonial = () => {
             Providing patients with daily lifestyle modification plans, progress
             monitoring, and alerting you to any risk change.
           </p>
-          <button className=" px-6 font-semibold py-3 bg-black rounded-full text-md sm:text-lg mt-6 w-fit text-white">
+          {/* <button className=" px-6 font-semibold py-3 bg-black rounded-full text-md sm:text-lg mt-6 w-fit text-white">
             For Professionals
             <i className=" font-normal ri-arrow-right-line"></i>
-          </button>
+          </button> */}
         </div>
         <div className=" sm:w-1/2 w-full h-[50vh] sm:h-[60vh] rounded-2xl overflow-hidden bg-red-200"></div>
       </div>
