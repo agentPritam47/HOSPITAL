@@ -228,7 +228,7 @@ const Info = () => {
             <a className=" inline-block" href="http://www.ncbi.nlm.nih.gov">
               <div
                 ref={fe1}
-                className=" flex px-3 items-center justify-center opacity-0 sm:h-[6vw] h-[6vh] w-[90%] rounded-2xl bg-zinc-50 shadow-xl absolute top-[10%] left-[40%] -translate-x-1/2"
+                className=" flex px-3 items-center justify-center opacity-0 sm:h-[6vw] h-[6vh] w-[95%] rounded-2xl bg-zinc-50 shadow-xl absolute top-[10%] left-[40%] -translate-x-1/2"
               >
                 <h1 className=" text-xs sm:whitespace-nowrap ">
                   Reduce Blood Pressure by ~14 mmHG <sup>1</sup>
@@ -238,7 +238,7 @@ const Info = () => {
             <a className=" inline-block" href="http://www.ncbi.nlm.nih.gov">
               <div
                 ref={fe2}
-                className="flex px-3 items-center justify-center opacity-0 sm:h-[6vw] h-[6vh] w-[90%] rounded-2xl bg-zinc-50 shadow-xl absolute top-[40%] left-[40%] -translate-x-1/2"
+                className="flex px-3 items-center justify-center opacity-0 sm:h-[6vw] h-[6vh] w-[95%] rounded-2xl bg-zinc-50 shadow-xl absolute top-[40%] left-[40%] -translate-x-1/2"
               >
                 <h1 className=" text-xs sm:whitespace-nowrap ">
                   Reduce Blood Sugar by ~30 mg/dl <sup>2</sup>
@@ -249,7 +249,7 @@ const Info = () => {
             <a className=" inline-block" href="http://heart.arizona.edu">
               <div
                 ref={fe3}
-                className="flex px-3 items-center justify-center opacity-0 sm:h-[6vw] h-[6vh] w-[90%] rounded-2xl bg-zinc-50 shadow-xl absolute top-[70%] left-[40%] -translate-x-1/2"
+                className="flex px-3 items-center justify-center opacity-0 sm:h-[6vw] h-[6vh] w-[95%] rounded-2xl bg-zinc-50 shadow-xl absolute top-[70%] left-[40%] -translate-x-1/2"
               >
                 <h1 className=" text-xs sm:whitespace-nowrap">
                   Reduce cardiac risk by ~50% <sup>3</sup>
