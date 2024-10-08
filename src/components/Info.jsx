@@ -267,19 +267,19 @@ const Info = () => {
                 <div
                   ref={lb1}
                   className="shadow-xl flex justify-start items-center px-3 opacity-0  w-full h-[5vh] sm:h-[3vw] bg-white rounded-2xl"
-                ><p className=" text-sm sm:text-base" >Nutrition</p></div>
+                ><p className=" text-xs sm:text-base" >Nutrition</p></div>
                 <div
                   ref={lb2}
                   className="shadow-xl flex justify-start items-center px-3 opacity-0 w-full h-[5vh] sm:h-[3vw] bg-white rounded-2xl"
-                ><p className=" text-sm sm:text-base">Fitness</p></div>
+                ><p className=" text-xs sm:text-base">Fitness</p></div>
                 <div
                   ref={lb3}
                   className="shadow-xl flex justify-start items-center px-3 opacity-0  w-full h-[5vh] sm:h-[3vw] bg-white rounded-2xl"
-                ><p className=" text-sm sm:text-base">Stress Reduction</p></div>
+                ><p className=" text-xs sm:text-base">Stress Reduction</p></div>
                 <div
                   ref={lb4}
                   className="shadow-xl flex justify-start items-center px-3 opacity-0  w-full h-[5vh] sm:h-[3vw] bg-white rounded-2xl"
-                ><p className=" text-sm sm:text-base">Sleep</p></div>
+                ><p className=" text-xs sm:text-base">Sleep</p></div>
               </div>
             </div>
           </div>
