@@ -23,7 +23,7 @@ const Services = () => {
     <div className=" px-[5vw] py-16">
       <h1 className=" text-center text-3xl sm:text-4xl font-semibold font-[bolld]">
         Regardless of how your health has progressed,
-        <br className=" sm:block hidden" /> from now on we are at your side!
+        <br className=" sm:block hidden" /> from now on we are by your side!
       </h1>
       {/* <p className=" text-center mt-5 sm:text-xl text-lg">
         Do you have kidney disease and possibly one of the following conditions?

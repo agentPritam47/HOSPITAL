@@ -208,8 +208,7 @@ const Info = () => {
           <div className=" w-full sm:w-[40%] mt-10 sm:mt-0">
             <h1 className=" text-3xl">Comprehensive health plan</h1>
             <p className=" font-[regular] mt-5">
-              Cuore identifies your health risks, and provides you with a
-              comprehensive, personalized guidance, to reverse those risks.
+              Cuore identifies your health risks, and provides you with comprehensive, personalized guidance, to reverse those risks.
             </p>
           </div>
         </div>
@@ -310,7 +309,7 @@ const Info = () => {
           <div>
             <h1 className=" text-3xl mt-10 sm:mt-0">Results you hold on to</h1>
             <p className=" pt-5 font-[regular]">
-              Experience how even small changes make a difference.
+              Experience how even small changes can make a difference.
             </p>
             <button className=" bg-black text-white font-medium px-4 py-3 rounded-full mt-5">
               Find out more
