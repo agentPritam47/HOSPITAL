@@ -33,7 +33,7 @@ const Hero = () => {
       </div>
 
       <div className=" w-full h-[80vh] lg:h-[70vh] mt-[3vw] rounded-2xl flex lg:flex-row flex-col lg:overflow-hidden relative bg-red-300">
-        <div className="lg:pl-[5vw] lg:pr-[6vw] pl-[3vw] pr-[3vw] py-[7.5vw] lg:h-full h-[100%] lg:w-[55%] lg:rounded-none rounded-2xl w-full bg-violet-900 flex justify-center items-center">
+        <div className="lg:pl-[5vw] lg:pr-[6vw] pl-[3vw] pr-[3vw] py-[7.5vw] lg:h-full h-[100%] lg:w-[55%] lg:rounded-none rounded-2xl w-full bg-blue-400 flex justify-center items-center">
           <div className="h-full w-full ">
             <h1 className=" rounded-2xl text-white text-3xl lg:text-4xl font-bold">
               A healthier you: Personal support for long-lasting change
