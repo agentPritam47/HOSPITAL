@@ -93,7 +93,7 @@ const Testimonial = () => {
             <p>Improve medication adherence</p>
           </div>
           <div ref={five} className=" w-full sm:h-[4vw] h-[7vh] rounded-2xl bg-zinc-100 items-center flex p-3">
-            <p>Increase awarness for early detection</p>
+            <p>Increase awareness for early detection</p>
           </div>
         </div>
       </div>
