@@ -1,6 +1,65 @@
-import React from "react";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import React, { useRef } from "react";
 
 const Testimonial = () => {
+  const one = useRef()
+  const two = useRef()
+  const three = useRef()
+  const four = useRef()
+  const five = useRef()
+
+  useGSAP(()=>{
+    const tl = gsap.timeline({repeat: -1})
+
+    tl.from(one.current, {
+      opacity: 0,
+      y: 50,
+      duration: 1
+    })
+    tl.from(two.current, {
+      opacity: 0,
+      y: 50,
+      duration: 1
+    })
+    tl.from(three.current, {
+      opacity: 0,
+      y: 50,
+      duration: 1
+    })
+    tl.from(four.current, {
+      opacity: 0,
+      y: 50,
+      duration: 1
+    })
+    tl.from(five.current, {
+      opacity: 0,
+      y: 50,
+      duration: 1
+    })
+
+    tl.to(one.current,{
+      duration: 5
+    })
+    tl.to(one.current,{
+      opacity: 0
+    })
+    tl.to(two.current,{
+      opacity: 0
+    })
+    tl.to(three.current,{
+      opacity: 0
+    })
+    tl.to(four.current,{
+      opacity: 0
+    })
+    tl.to(five.current,{
+      opacity: 0
+    })
+    tl.to(one.current,{
+      duration: 2
+    })
+  })
   return (
     <div className=" w-full sm:px-[15vw] py-16 px-[5vw]">
       <div className="flex sm:flex-row flex-col justify-between items-center w-full">
@@ -21,20 +80,20 @@ const Testimonial = () => {
           </button> */}
         </div>
         <div className=" font-[bolld] sm:w-[40%] w-full h-[50vh] sm:h-[60vh] p-5 flex flex-col justify-between rounded-2xl overflow-hidden bg-red-200">
-          <div className=" w-full sm:h-[4vw] h-[7vh] rounded-2xl bg-zinc-100 flex items-center p-3">
+          <div ref={one} className=" w-full sm:h-[4vw] h-[7vh] rounded-2xl bg-zinc-100 flex items-center p-3">
             <p>Assess risk for focused guidance</p>
           </div>
-          <div className=" w-full sm:h-[4vw] h-[7vh] rounded-2xl bg-zinc-100 items-center flex p-3">
+          <div ref={two} className=" w-full sm:h-[4vw] h-[7vh] rounded-2xl bg-zinc-100 items-center flex p-3">
             <p>Improve Nutrition & Fitness</p>
           </div>
-          <div className=" w-full sm:h-[4vw] h-[7vh] rounded-2xl bg-zinc-100 items-center flex p-3">
+          <div ref={three} className=" w-full sm:h-[4vw] h-[7vh] rounded-2xl bg-zinc-100 items-center flex p-3">
             <p>Improve sleep and reduce stress</p>
           </div>
-          <div className=" w-full sm:h-[4vw] h-[7vh] rounded-2xl bg-zinc-100 items-center flex p-3">
+          <div ref={four} className=" w-full sm:h-[4vw] h-[7vh] rounded-2xl bg-zinc-100 items-center flex p-3">
             <p>Improve medication adherence</p>
           </div>
-          <div className=" w-full sm:h-[4vw] h-[7vh] rounded-2xl bg-zinc-100 items-center flex p-3">
-            <p>Increase awerness for early detection</p>
+          <div ref={five} className=" w-full sm:h-[4vw] h-[7vh] rounded-2xl bg-zinc-100 items-center flex p-3">
+            <p>Increase awarness for early detection</p>
           </div>
         </div>
       </div>
