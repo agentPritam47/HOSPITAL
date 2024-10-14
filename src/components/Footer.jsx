@@ -8,8 +8,8 @@ const Footer = () => {
           OSKA
         </h1> */}
         <div className=" mix w-full h-fit sm:pb-5 flex items-center justify-center sm:justify-start">
-          <div className=" sm:w-[14vw] sm:h-[5vw] w-[14vh] h-[5vh] flex items-center justify-center sm:ml-[-2vw]">
-            <img src="Logoo-removebg-preview.png" alt="" />
+          <div className=" sm:w-[14vw] sm:h-[5vw] w-[14vh] h-[5vh] flex items-center justify-center sm:ml-[-.5vw]">
+            <img src="logo-cuore-white.png" alt="" />
           </div>
         </div>
         <div className=" flex sm:flex-row items-start flex-col mt-10 justify-between">
