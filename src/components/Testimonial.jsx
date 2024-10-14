@@ -6,14 +6,14 @@ const Testimonial = () => {
       <div className="flex sm:flex-row flex-col justify-between items-center w-full">
         <div className=" sm:w-1/2 w-full px-5 pb-10 sm:pb-0">
           <p className=" text-lg sm:text-2xl font-semibold">
-             healthcare professionals
+            healthcare professionals
           </p>
           <h1 className=" text-4xl font-[bolld] font-semibold mt-4">
             Cuore acts as an extension of your practice
           </h1>
           <p className=" text-lg sm:text-2xl mt-4 ">
-            Providing patients with daily lifestyle modification plans, progress
-            monitoring, and alerting you to any risk change.
+            Offering patients daily lifestyle modification plans, tracking their
+            progress, and notifying you of any changes in their risk levels.
           </p>
           {/* <button className=" px-6 font-semibold py-3 bg-black rounded-full text-md sm:text-lg mt-6 w-fit text-white">
             For Professionals
@@ -21,21 +21,21 @@ const Testimonial = () => {
           </button> */}
         </div>
         <div className=" sm:w-[40%] w-full h-[50vh] sm:h-[60vh] p-5 flex flex-col justify-between rounded-2xl overflow-hidden bg-red-200">
-            <div className=" w-full sm:h-[4vw] h-[7vh] rounded-2xl bg-zinc-100 flex items-center p-3">
-              <p>Assess risk for focused guidance</p>
-            </div>
-            <div className=" w-full sm:h-[4vw] h-[7vh] rounded-2xl bg-zinc-100 items-center flex p-3">
-              <p>Improve Nutrition & Fitness</p>
-            </div>
-            <div className=" w-full sm:h-[4vw] h-[7vh] rounded-2xl bg-zinc-100 items-center flex p-3">
-              <p>Improve sleep and reduce stress</p>
-            </div>
-            <div className=" w-full sm:h-[4vw] h-[7vh] rounded-2xl bg-zinc-100 items-center flex p-3">
-              <p>improve medication adherence</p>
-            </div>
-            <div className=" w-full sm:h-[4vw] h-[7vh] rounded-2xl bg-zinc-100 items-center flex p-3">
-              <p>Increase awerness for early detection</p>
-            </div>
+          <div className=" w-full sm:h-[4vw] h-[7vh] rounded-2xl bg-zinc-100 flex items-center p-3">
+            <p>Assess risk for focused guidance</p>
+          </div>
+          <div className=" w-full sm:h-[4vw] h-[7vh] rounded-2xl bg-zinc-100 items-center flex p-3">
+            <p>Improve Nutrition & Fitness</p>
+          </div>
+          <div className=" w-full sm:h-[4vw] h-[7vh] rounded-2xl bg-zinc-100 items-center flex p-3">
+            <p>Improve sleep and reduce stress</p>
+          </div>
+          <div className=" w-full sm:h-[4vw] h-[7vh] rounded-2xl bg-zinc-100 items-center flex p-3">
+            <p>improve medication adherence</p>
+          </div>
+          <div className=" w-full sm:h-[4vw] h-[7vh] rounded-2xl bg-zinc-100 items-center flex p-3">
+            <p>Increase awerness for early detection</p>
+          </div>
         </div>
       </div>
 
