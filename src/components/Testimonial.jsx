@@ -79,7 +79,7 @@ const Testimonial = () => {
             <i className=" font-normal ri-arrow-right-line"></i>
           </button> */}
         </div>
-        <div className=" font-[bolld] font-semibold sm:w-[40%] w-full h-[50vh] sm:h-[60vh] p-5 flex flex-col justify-between rounded-2xl overflow-hidden bg-green-100">
+        <div className=" font-[bolld] font-semibold sm:w-[40%] w-full h-[50vh] sm:h-[60vh] text-xs p-5 flex flex-col justify-between rounded-2xl overflow-hidden bg-green-100">
           <div ref={one} className=" w-full sm:h-[4vw] h-[7vh] rounded-2xl bg-white shadow-2xl flex items-center p-3">
             <p>Assess risk for focused guidance</p>
           </div>
