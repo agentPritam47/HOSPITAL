@@ -20,7 +20,7 @@ const Testimonial = () => {
             <i className=" font-normal ri-arrow-right-line"></i>
           </button> */}
         </div>
-        <div className=" sm:w-[40%] w-full h-[50vh] sm:h-[60vh] p-5 flex flex-col justify-between rounded-2xl overflow-hidden bg-red-200">
+        <div className=" font-[bolld] sm:w-[40%] w-full h-[50vh] sm:h-[60vh] p-5 flex flex-col justify-between rounded-2xl overflow-hidden bg-red-200">
           <div className=" w-full sm:h-[4vw] h-[7vh] rounded-2xl bg-zinc-100 flex items-center p-3">
             <p>Assess risk for focused guidance</p>
           </div>
@@ -31,7 +31,7 @@ const Testimonial = () => {
             <p>Improve sleep and reduce stress</p>
           </div>
           <div className=" w-full sm:h-[4vw] h-[7vh] rounded-2xl bg-zinc-100 items-center flex p-3">
-            <p>improve medication adherence</p>
+            <p>Improve medication adherence</p>
           </div>
           <div className=" w-full sm:h-[4vw] h-[7vh] rounded-2xl bg-zinc-100 items-center flex p-3">
             <p>Increase awerness for early detection</p>
