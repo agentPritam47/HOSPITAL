@@ -25,7 +25,6 @@ const Footer = () => {
           <div className=" sm:w-[20%] w-full flex flex-col items-center mt-10 sm:mt-0">
             <p className=" text-xl font-semibold">Legal</p>
             <p className=" text-xl opacity-80 text-white mt-3">Privacy</p>
-            <p className=" text-xl opacity-80 text-white mt-3">Imprint</p>
           </div>
         </div>
       </div>
