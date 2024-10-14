@@ -70,7 +70,7 @@ const Testimonial = () => {
           <h1 className=" text-4xl font-[bolld] font-semibold mt-4">
             Cuore acts as an extension of your practice
           </h1>
-          <p className=" text-lg sm:text-2xl mt-4 font-extralight font-[regular] ">
+          <p className=" text-lg sm:text-2xl mt-4 font-[regular] ">
             Offering patients daily lifestyle modification plans, tracking their
             progress, and notifying you of any changes in their risk levels.
           </p>
