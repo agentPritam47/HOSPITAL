@@ -208,7 +208,7 @@ const Info = () => {
           <div className=" w-full sm:w-[40%] mt-10 sm:mt-0">
             <h1 className=" text-3xl">Comprehensive health plan</h1>
             <p className=" font-[regular] mt-5">
-              Cuore identifies your health risks, and provides you with comprehensive and personalized guidance, to reverse those risks.
+              Cuore identifies your health risks, and provides you with comprehensive and personalized guidance to minimise those risks.
             </p>
           </div>
         </div>
