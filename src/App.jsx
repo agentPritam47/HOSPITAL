@@ -6,8 +6,12 @@ import Services from './components/Services'
 import Doctors from './components/Doctors'
 import Testimonial from './components/Testimonial'
 import Footer from './components/Footer'
+import LocomotiveScroll from 'locomotive-scroll';
+
 
 const App = () => {
+const locomotiveScroll = new LocomotiveScroll();
+
   return (
     <div className=' w-full overflow-x-hidden'>
       <Hero />
