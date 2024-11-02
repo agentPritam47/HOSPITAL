@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="lg:pl-[5vw] lg:pr-[6vw] pl-[3vw] pr-[3vw] py-[7.5vw] lg:h-full h-[100%] lg:w-[55%] lg:rounded-none rounded-2xl w-full bg-blue-400 flex justify-center items-center">
           <div className="h-full w-full ">
             <h1 className=" rounded-2xl text-white text-3xl lg:text-4xl font-bold">
-              A healthier you: Personal support for long-lasting change
+            Transform Your Health: Personalized Support and Guidance for long-lasting
             </h1>
             <p className=" text-white mt-5">
               Sustainable health plans for the prevention & reversal of
