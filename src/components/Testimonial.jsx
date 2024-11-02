@@ -71,8 +71,7 @@ const Testimonial = () => {
             Cuore acts as an extension of your practice
           </h1>
           <p className=" mt-4 font-[regular] font-semibold ">
-            Offering patients daily lifestyle modification plans, tracking their
-            progress, and notifying you of any changes in their risk levels.
+          Providing patients with daily lifestyle modification plans, progress monitoring, and alerting you to any risk change
           </p>
           {/* <button className=" px-6 font-semibold py-3 bg-black rounded-full text-md sm:text-lg mt-6 w-fit text-white">
             For Professionals
