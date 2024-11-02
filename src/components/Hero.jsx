@@ -1,36 +1,8 @@
 import React, { useState } from "react";
 
 const Hero = () => {
-    const [open, setOpen] = useState(false)
   return (
     <div className=" overflow-x-hidden relative overflow-hidden h-fit pb-[25vh] sm:pb-5 w-full pt-7 px-[5vw] lg:px-[10vw] font-[bolld]">
-      <nav className="relative h-fit  w-full flex justify-between items-center">
-        {/* <h1 className="relative z-[999] text-3xl">OSKA</h1> */}
-        <div className=" relative z-[999] sm:h-[4vw] sm:w-[10vw] h-[8vh] w-[12vh] flex items-center justify-center ">
-          <img className=" h-full w-full object-contain scale-125" src="/Logoo-removebg-preview.png" alt="" />
-        </div>
-
-        <div className=" lg:flex items-center gap-10 text-[1.05vw] font-bold lg:visible hidden">
-          {/* <p>Individuals</p>
-          <p>Medical professionals</p>
-          <p>How it works</p> */}
-          <p>About us</p>
-          <p>Contact us</p>
-        </div>
-
-        <div className=" sm:hidden block">
-          <i onClick={()=>setOpen(true)} className="ri-menu-line text-xl"></i>
-        </div>
-      </nav>
-
-      <div className={`h-fit rounded-2xl w-full absolute top-0 right-0 bg-zinc-100 shadow-2xl z-[899] flex flex-col gap-10 sm:hidden items-start px-5 py-10 text-xl transform ${open ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-500`}>
-        <div className=" w-full flex justify-end text-xl"><i onClick={()=>setOpen(false)} className="ri-close-line"></i></div>
-        {/* <p>Individuals</p>
-        <p>Medical professionals</p>
-        <p>How it works</p> */}
-        <p>About us</p>
-        <p>Contact us</p>
-      </div>
 
       <div className=" w-full h-[80vh] lg:h-[70vh] mt-[3vw] rounded-2xl flex lg:flex-row flex-col lg:overflow-hidden relative bg-red-300">
         <div className="lg:pl-[5vw] lg:pr-[6vw] pl-[3vw] pr-[3vw] py-[7.5vw] lg:h-full h-[100%] lg:w-[55%] lg:rounded-none rounded-2xl w-full bg-blue-400 flex justify-center items-center">
