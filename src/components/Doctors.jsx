@@ -12,13 +12,13 @@ const Doctors = () => {
       name: "Dr. Hemant Kalra",
       domain: "Director Pulmonology",
       work: "Max Hospital, New Delhi",
-      img: "/doc3.jpg"
+      img: "/doc1.jpg"
     },
     {
       name: "Dr. Ashish Kumar, ",
       domain: "Senior Consultant, Gastroenterology",
       work: "Sir Gangaram Hospital,New Delhi",
-      img: "/doc1.jpg"
+      img: "/doc3.jpg"
     },
   ];
   return (
